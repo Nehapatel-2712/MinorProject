@@ -1,0 +1,426 @@
+@charset "utf-8";
+<style>
+	.main
+	{
+		height:1200px;
+		width:100%;
+		float:left;
+		background-color:#E4E4E4;
+	}
+	
+	.name
+	{
+		height:70px;
+		width:95%;
+		margin-left:2.5%;
+		margin-top:20px;
+		float:left;
+		background-color:white;
+	}
+	.querymain
+	{
+		height:2200px;
+		width:95%;
+		margin-left:2.5%;
+		float:left;
+		background-color:white;
+		border:0px solid black;
+		overflow:scroll;
+	}
+	.heading
+	{
+		height:30px;
+		width:90%;
+		float:left;
+		font-weight:bold;
+		font-size:24px;
+		color:#710000;
+		font-family:"Comic Sans MS", cursive;
+		margin-bottom:15px;
+		border:0px solid black;
+		margin-top:3px;
+		
+	}
+	.heading2
+	{
+		height:70px;
+		width:90%;
+		float:left;
+		font-weight:bold;
+		font-size:24px;
+		color:#710000;
+		font-family:"Comic Sans MS", cursive;
+		margin-bottom:15px;
+		border:0px solid black;
+		margin-top:3px;
+		
+	}
+	
+	.post_q
+	{
+		height:300px;
+		width:40%;
+		float:left;
+		border:0px solid black;
+		background-color:white;
+		margin-left:30%;
+		margin-top:14px;
+		border-radius:12px;
+	}
+	textarea
+	{
+		font-size:24px;
+		font-weight:bolder;
+		padding:10px;
+		height:100px;
+		width:80%;
+		margin-left:8%;
+		height:170px;
+		border-radius:12px;
+		border:2px solid #000;
+		border-style:double;
+		
+	}
+	/*.postdiv
+	{
+		height:50px;
+		width:100%;
+		float:left;
+		margin-top:10px;
+		border:0px solid #000;
+	}*/
+	.facultydiv
+	{
+		height:50px;
+		width:20%;
+		float:left;
+		margin-left:40px;
+		border:0px solid #000;
+	}
+	.buttondiv
+	{
+		height:45px;
+		width:50%;
+		float:left;
+		margin-left:260px;
+		margin-top:10px;
+		border:0px solid #000;
+	}
+	.querydiv
+	{
+		width:90%;
+		float:left;
+		margin-left:70px;
+		margin-top:40px;
+		background-color:#EBEBEB;
+		border:0px solid black;
+	}
+	.top
+	{
+		height:30px;
+		width:100%;
+		float:left;
+		background-color:#CDCDCD;
+		border:0px solid black;
+		box-shadow:#595959;
+		box-shadow:2px 2px 2px 2px #B1B1B1;
+	}
+	.query_topn
+	{
+		height:30px;
+		width:30%;
+		float:left;
+		border:0px solid black;
+		color:black;
+		font-size:14px;
+		font-style:bold;
+		font-family:Verdana, Geneva, sans-serif;
+		margin-left:3%;
+		margin-top:8px;
+	}
+	.query_topd
+	{
+		height:30px;
+		width:auto;
+		float:right;
+		border:0px solid black;
+		color:black;
+		font-size:14px;
+		font-style:bold;
+		font-family:Verdana, Geneva, sans-serif;
+		margin-left:3%;
+		margin-top:8px;
+		text-align:center;
+	}
+	/*.query_topedit
+	{
+		height:30px;
+		width:4%;
+		float:right;
+		border:1px solid black;
+		color:black;
+		font-size:14px;
+		font-style:bold;
+		font-family:Verdana, Geneva, sans-serif;
+		margin-left:3%;
+		text-align:center;
+	}
+	.query_topedit:hover>.query_ed
+	{
+		
+	}
+	.query_ed
+	{
+		height:30px; 
+		width:30%;
+		background-color:#9FF;
+	}*/
+	.query_tops
+	{
+		height:30px;
+		width:20%;
+		float:right;
+		border:0px solid black;
+		color:black;
+		font-size:14px;
+		font-style:bold;
+		font-family:Verdana, Geneva, sans-serif;
+		margin-left:3%;
+		margin-top:8px;
+		text-align:end;
+	}
+	.query
+	{
+		height:auto;
+		width:97%;
+		float:left;
+		border:0px solid black;
+		padding:15px;
+		font:Verdana, Geneva, sans-serif;
+		font-size:18px;
+	}
+	
+	.query_bottom
+	{
+		height:50px;
+		width:100%;
+		float:left;
+		border-top:0px solid #B00058;
+		margin-top:10px;
+	}
+	.qb_like
+	{
+		height:40px;
+		width:7%;
+		float:left;
+		border:0px solid #B00058;
+		border-radius:20%;
+		margin-left:10px;
+		border:0px solid black;
+		
+	}
+	.q_like
+	{
+		height:40px;
+		width:100%;
+		float:left;
+		border:0px solid #B00058;
+		background-image:url(images/1200px-Bot%C3%B3n_Me_gusta.svg.png);
+		background-size:100% 100%;
+		border-radius:20%;
+		margin-top:-20px;
+	
+		border:0px solid black;
+	}
+	.q_unlike
+	{
+		height:40px;
+		width:100%;
+		float:left;
+		border:0px solid #B00058;
+		background-image:url(images/like-video.png);
+		background-size:100% 100%;
+		border-radius:20%;
+		margin-top:-20px;
+		
+	}
+	.liken
+	{
+		height:40px;
+		width:10%;
+		float:left;
+		border:0px solid black;
+		padding:7px;
+		font-size:24px;	}
+	/*.qb_getans
+	{
+		height:30px;
+		width:10%;
+		float:right;
+		border:0px solid #B00058;
+		background-color:#9797FF;
+		font-size:14px;
+		font-family:Verdana, Geneva, sans-serif;
+		text-align:center;
+		margin-top:10px;
+	}*/
+	.qb_ans
+	{
+		height:35px;
+		width:15%;
+		float:right;
+		border:0px solid #B00058;
+		background:linear-gradient(to bottom right, #058CFA, #4040FF);
+
+		color:white;
+		border-radius:12px;
+		margin-right:10px;
+		margin-top:10px;
+		font-size:20px;
+		font-family:Verdana, Geneva, sans-serif;
+		text-align:center;
+		font-weight:bold;
+	}
+	.answer
+	{
+		
+		height:150px;
+		width:100%;
+		float:left;
+		border:0px solid #B00058;
+		background-color:#EBEBEB;
+		
+	}
+	.query_dow
+	{
+		height:auto;
+		width:47%;
+		float:left;
+		border:0px solid black;
+		padding:5px;
+		font:Verdana, Geneva, sans-serif;
+		font-size:18px;
+		border:3px groove #FFFFC6;
+		margin-left:13px;
+	}
+	.query_link
+	{
+		height:auto;
+		width:95%;
+		float:left;
+		border:0px solid black;
+		padding:5px;
+		font:Verdana, Geneva, sans-serif;
+		font-size:18px;
+		border:3px groove #FFFFC6;
+		margin-left:13px;
+	}
+	input[type='submit']
+	{
+		 height:38px; 
+		 width:40%; 
+		 border-radius:20px;
+		 background:linear-gradient(to bottom right, #058CFA, #4040FF);
+		 font-size:18px; 
+		 border:thick; 
+		 color:white; 
+		 font-size:24px;
+		 font-weight:bold;
+	}
+	.main_ans
+	{
+		height:300px;
+		width:90%;
+		float:left;
+		margin-left:70px;
+		background-color:#EBEBEB;
+		border:0px solid black;
+		overflow:scroll;
+		display:none;
+	}
+	.ans_list
+	{
+		width:85%;
+		float:left;
+		margin-left:80px;
+		margin-top:20px;
+		background-color:#FFF;
+		border:0px solid black;
+		color:#000;
+		box-shadow:2px 2px 2px 2px #6E6E6E;
+		padding:10px;
+		font:Verdana, Geneva, sans-serif;
+		font-size:18px;
+		
+	}
+	.ans_name
+	{
+		height:20px;
+		width:100%;
+		float:left;
+		border:0px solid black;
+		color:black;
+		font-size:14px;
+		font-weight:bold;
+		font-family:Verdana, Geneva, sans-serif;
+		margin-left:1%;
+		
+	}
+	.ans_bottom
+	{
+		height:30px;
+		width:50%;
+		float:left;
+		border:0px solid black;
+		margin-left:49%;
+		margin-top:10px; 
+	}
+	.ans_edit
+	{
+		
+		height:20px;
+		width:15%;
+		border:0px solid black;
+		font-size:18px;
+		color:#000;
+		margin-left:30px;
+		float:right;
+		margin-right:20px;
+		text-align:center;
+		background-color:#FFF0FF;
+		color:black;
+		padding:2px;
+		box-shadow:2px 2px 2px 2px #BEBEBE;
+	}
+	.ans_delete
+	{
+		
+		height:20px;
+		width:15%;
+		border:0px solid black;
+		font-size:18px;
+		color:#000;
+		margin-left:30px;
+		float:right;
+		margin-right:20px;
+		text-align:center;
+		background-color:#FFF0FF;
+		color:black;
+		padding:2px;
+		box-shadow:2px 2px 2px 2px #BEBEBE;
+	}
+	.subm{
+		background-color:#00F;
+	}
+	.subm:hover
+	{
+		background:linear-gradient(to bottom right, #058CFA, #4040FF);
+
+	}
+	.postbut
+	{
+
+	}
+	
+</style>/* CSS Document */
+

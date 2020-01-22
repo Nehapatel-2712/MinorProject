@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<style type="text/css">
+
+/* Notes */
+
+.n_body{
+	width:100%;
+    height:1100px;
+	float:left;
+	border:1px solid black;
+     }
+.header{
+	width:100%;
+    height:300px;
+	float:left;
+	background-image:url(images/nbg1.png);
+	background-size:100% 100%;
+	   }
+
+	
+.heading{
+	width:40%;
+    height:50px;
+	float:left;
+	margin-left:1px;
+	margin-top:90px;
+	text-align:center;
+	color:black;
+    font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:42px;
+	font-weight:900;
+	text-shadow:10px 10px 10px #1D1D1D;
+}
+.logo{
+	width:11%;
+    height:180px;
+	float:left;
+	margin-top:20px;
+	border:0px solid black;
+	background-image:url(images/nbg3.png);
+	background-size:100% 100%;
+	}
+.hbox{
+	width:100%;
+    height:50px;
+	float:left;
+	background-color:black;
+	opacity:0.3;
+	margin-top:68px;
+	margin-left:1px;
+	 }
+.hbox1{
+	width:99%;
+    height:50px;
+	float:left;
+	margin-top:-48px;
+	margin-left:8px;
+	position:relative;
+	z-index:200;
+	 }
+.hboxin{
+	width:11%;
+    height:30px;
+	float:left;
+	text-align:center;
+	padding:9px;
+	 }
+.hboxin:hover{
+   background-color:black;
+	         }
+.hboxin1{
+	width:140%;
+    height:200px;
+	float:left;
+	text-align:center;
+	margin-top:16px;
+	margin-left:-17px;
+	background-image:url(images/nbg5.jpg);
+	display:none;
+	background-size:100% 100%;
+	 }
+.hboxin:hover>.hboxin1{
+   display:block;
+   position:relative;
+	         }
+.hboxin2{
+	width:100%;
+    height:38px;
+	float:left;
+	text-align:center;
+	border:1px solid #EFA5ED;
+	 }
+.hboxin2:hover{
+	background-color:#FF6AFF;
+	}
+t{
+	color:white;
+    font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	font-weight:600;
+ }
+tt{
+	color:black;
+    font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-weight:600;
+ }
+.main{
+	width:100%;
+    height:800px;
+	float:left;
+	 }
+.main1{
+	width:70%;
+    height:800px;
+	float:left;
+	background-image:url(images/iStock_000016605904_web-1200x565.jpg);
+	background-size:100% 100%;
+}
+.main1heading{
+	width:90%;
+    height:50px;
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	text-align:center;
+	color:black;
+    font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:26px;
+	font-weight:900;
+	text-shadow:4px 4px 8px #404040;
+}
+.main2{
+	width:29.5%;
+    height:800px;
+	float:left;
+	border:1px solid black;
+	 }
+.main21{
+	width:100%;
+    height:400px;
+	float:left;
+	background-image:url(images/nbg11.jpg);
+	 }
+.main22{
+	width:100%;
+    height:400px;
+	float:left;
+	background-color:#888;
+	 }
+	 /* Assignment */
+.a_body{
+	width:100%;
+    height:1100px;
+	float:left;
+	border:1px solid black;
+	}
+.a_header{
+	width:100%;
+    height:300px;
+	float:left;
+	background-image:url(images/Intro.jpg);
+	background-size:100% 100%;
+	   }
+.a_hopacity{
+	width:100%;
+    height:300px;
+	float:left;
+	background-color:black;
+	opacity:0.1;
+	   }
+.a_headermain{
+	width:100%;
+    height:300px;
+	float:left;
+	margin-top:-300px;
+	z-index:200;
+	position:relative;
+	   }
+.a_hbox{
+	width:100%;
+    height:50px;
+	float:left;
+	background-color:black;
+	opacity:0.3;
+	margin-top:250px;
+	 }
+.a_hbox1{
+	width:100%;
+    height:50px;
+	float:left;
+	margin-top:-50px;
+	position:relative;
+	z-index:200;
+	 }
+.a_hboxin{
+	width:145px;
+    height:30px;
+	float:left;
+	text-align:center;
+	padding:9px;
+}
+.a_hboxin:hover{
+   background-color:black;
+	         }
+.a_main{
+	width:100%;
+    height:800px;
+	float:left;
+	background-image:url(images/nbg11.jpg);
+	background-size:100% 100%;
+}
+
+
+ </style>
+ </head>
+</html>
